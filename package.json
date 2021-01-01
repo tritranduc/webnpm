@@ -1,0 +1,37 @@
+{
+  "name": "webnpm",
+  "version": "1.0.0",
+  "description": "web use npm , you run sever.js ",
+  "main": "sever.js",
+  "scripts": {
+    "start": "nodemon sever.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tritranduc/webnpm.git"
+  },
+  "keywords": [
+    "webnpm"
+  ],
+  "author": "tritranduc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tritranduc/webnpm/issues"
+  },
+  "homepage": "https://github.com/tritranduc/webnpm#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "http-errors": "^1.8.0",
+    "http-server": "^0.12.3",
+    "https": "^1.0.0",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
