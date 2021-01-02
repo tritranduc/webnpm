@@ -45,7 +45,7 @@ app.use('/admin', adminpage);
 app.use("/uploadfilepage",uploadfilepage)
 app.post('/profile', upload.single('file'), function (req, res, next) {
     console.log(req.file)
-    res.send("tai file len thanh cong")
+    res.send("tai file len thanh cong thong tin la : "+req.file)
 })
 app.post('/profile', upload.array('file',2000), function (req, res, next) {
     console.log(req.file)
